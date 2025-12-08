@@ -147,3 +147,23 @@ hr {
 .btn-twitter:hover {
   background: #1686d6;
 }
+
+.btn-resume {
+  background-color: #0055cc;
+  color: #ffffff;
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  text-decoration: none;
+  display: inline-block;
+  transition: background 0.2s ease, transform 0.05s ease, box-shadow 0.2s ease;
+}
+
+.btn-resume:hover,
+.btn-resume:focus {
+  background-color: #003399;
+  outline: 2px solid #003399;
+  outline-offset: 2px;
+}
