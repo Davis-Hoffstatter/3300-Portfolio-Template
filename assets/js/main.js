@@ -49,4 +49,12 @@
 		$('.nav-links').toggleClass('show');
 	});
 
+	// ✅ Nav toggle for mobile
+$('.nav-toggle').on('click', function() {
+  const $links = $('.nav-links');
+  const expanded = $(this).attr('aria-expanded') === 'true';
+  $(this).attr('aria-expanded', String(!expanded));
+  $links.toggleClass('show');
+});
+
 })(jQuery);

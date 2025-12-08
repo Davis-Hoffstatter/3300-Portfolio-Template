@@ -198,3 +198,122 @@ hr {
 #nav ul li a:hover {
   color: #1d9bf0; /* highlight color on hover */
 }
+
+
+/* Base nav styles */
+#nav {
+  background: #f3f4f6;
+  padding: 0.75rem 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#nav .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+#nav .nav-links li a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #111827;
+}
+
+/* Toggle button */
+.nav-toggle {
+  display: none;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Responsive collapse */
+@media (max-width: 768px) {
+  #nav .nav-links {
+    display: none;
+    flex-direction: column;
+    background: #f3f4f6;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+  }
+
+  #nav .nav-links.show {
+    display: flex;
+  }
+
+  .nav-toggle {
+    display: block;
+    color: #111827;
+  }
+}
+
+/* Base nav */
+#nav {
+  background: #f3f4f6;
+  padding: 0.75rem 1rem;
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Links inline on desktop */
+#nav .nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+#nav .nav-links li a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #111827;
+}
+
+/* Hamburger hidden on desktop */
+.nav-toggle {
+  display: none;
+  font-size: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Collapse on mobile */
+@media (max-width: 768px) {
+  .nav-toggle { display: block; color: #111827; }
+
+  #nav .nav-links {
+    display: none;
+    flex-direction: column;
+    background: #f3f4f6;
+    position: absolute;
+    top: 60px; left: 0;
+    width: 100%;
+    padding: 1rem;
+    border-top: 1px solid #e5e7eb;
+  }
+
+  /* Show when toggled */
+  #nav .nav-links.show { display: flex; }
+}
+
+/* Optional: page content offset so header doesn’t overlap */
+#header, .wrapper { margin-top: 70px; }
