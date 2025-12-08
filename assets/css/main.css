@@ -141,11 +141,11 @@ hr {
 }
 
 .btn-twitter {
-  background: #1d9bf0;
+  background: #B9E3FF;  /* pastel */
+  color: #ffffff;
 }
-
 .btn-twitter:hover {
-  background: #1686d6;
+  background: #9FD8FF;  /* slightly darker pastel */
 }
 
 .btn-resume {
