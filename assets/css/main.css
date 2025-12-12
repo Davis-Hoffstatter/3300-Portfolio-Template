@@ -328,3 +328,7 @@ hr {
 .actions.special li {
   list-style: none;    /* remove bullet points */
 }
+/* Medium dark blue headings for project details */
+#project-details h3 {
+  color: #1d4ed8; /* medium dark blue */
+}
