@@ -317,14 +317,14 @@ hr {
   }
 }
 
-/* Add spacing between buttons in actions lists */
+/* Projects section buttons */
 .actions.special {
-  display: flex;          /* line them up horizontally */
-  gap: 1rem;              /* space between buttons */
-  justify-content: center;/* center them nicely */
-  flex-wrap: wrap;        /* allow wrapping on small screens */
+  display: flex;       /* keep them side by side */
+  gap: 1rem;           /* add space between buttons */
+  justify-content: flex-start; /* align to the left instead of center */
+  flex-wrap: wrap;     /* allow wrapping on small screens */
 }
 
 .actions.special li {
-  list-style: none;       /* remove bullet points */
+  list-style: none;    /* remove bullet points */
 }
