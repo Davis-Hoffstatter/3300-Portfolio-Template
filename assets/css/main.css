@@ -141,13 +141,13 @@ hr {
 }
 
 .btn-twitter {
-  background: #3399ff;   /* medium blue */
-  color: #ffffff;        /* keep white text for clarity */
+  background: #000000;   /* black background */
+  color: #ffffff;        /* white text */
 }
 
 .btn-twitter:hover,
 .btn-twitter:focus {
-  background: #267acc;   /* slightly darker on hover */
+  background: #333333;   /* dark gray on hover for subtle change */
   color: #ffffff;
 }
 
@@ -301,22 +301,30 @@ hr {
 
 /* Collapse on mobile */
 @media (max-width: 768px) {
-  .nav-toggle { display: block; color: #111827; }
-
   #nav .nav-links {
     display: none;
     flex-direction: column;
     background: #f3f4f6;
     position: absolute;
-    top: 60px; left: 0;
+    top: 60px;
+    left: 0;
     width: 100%;
     padding: 1rem;
-    border-top: 1px solid #e5e7eb;
   }
 
-  /* Show when toggled */
-  #nav .nav-links.show { display: flex; }
+  #nav .nav-links.show {
+    display: flex; /* this is what makes it appear */
+  }
 }
 
-/* Optional: page content offset so header doesn’t overlap */
-#header, .wrapper { margin-top: 70px; }
+/* Add spacing between buttons in actions lists */
+.actions.special {
+  display: flex;          /* line them up horizontally */
+  gap: 1rem;              /* space between buttons */
+  justify-content: center;/* center them nicely */
+  flex-wrap: wrap;        /* allow wrapping on small screens */
+}
+
+.actions.special li {
+  list-style: none;       /* remove bullet points */
+}
