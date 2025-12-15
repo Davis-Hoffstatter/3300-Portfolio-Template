@@ -49,7 +49,7 @@ All files are static and can be opened locally or hosted via GitHub Pages.
 
 ## 🔗 Live Site
 👉 Portfolio: *davishoffstatter.xyz*  
-👉 Repository: *[your-repo-link]*  
+👉 Repository: *(https://github.com/Davis-Hoffstatter/3300-Portfolio-Template.git)*  
 
 ## 📬 Contact
 - Email: *hoffstatterdavis@gmail.com*  
