@@ -42,7 +42,8 @@ All files are static and can be opened locally or hosted via GitHub Pages.
 
 ## 🚀 Technologies Used
 - HTML5  
-- CSS3  
+- CSS3
+- Google Analytics
 - Bootstrap 5  
 - JavaScript  
 - GitHub Pages (hosting)  
