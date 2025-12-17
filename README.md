@@ -30,7 +30,7 @@ Features:
 - Stores consent in browser cookies  
 - Meets accessibility and contrast standards  
 
-### 🎯 Purpose
+## 🎯 Purpose
 This portfolio was created as part of coursework to demonstrate:
 - Clean HTML & CSS structure  
 - Responsive layouts with Bootstrap  
@@ -48,11 +48,11 @@ All files are static and can be opened locally or hosted via GitHub Pages.
 - JavaScript  
 - GitHub Pages (hosting)  
 
-## 🔗 Live Site
+### 🔗 Live Site
 👉 Portfolio: *davishoffstatter.xyz*  
 👉 Repository: *(https://github.com/Davis-Hoffstatter/3300-Portfolio-Template.git)*  
 
-## 📬 Contact
+### 📬 Contact
 - Email: *hoffstatterdavis@gmail.com*  
 - LinkedIn: *https://www.linkedin.com/in/davis-hoffstatter-a0a9862aa/*  
 - GitHub: *Davis-Hoffstatter*  
