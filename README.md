@@ -30,7 +30,7 @@ Features:
 - Stores consent in browser cookies  
 - Meets accessibility and contrast standards  
 
-## 🎯 Purpose
+### 🎯 Purpose
 This portfolio was created as part of coursework to demonstrate:
 - Clean HTML & CSS structure  
 - Responsive layouts with Bootstrap  
